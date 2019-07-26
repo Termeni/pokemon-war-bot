@@ -26,8 +26,9 @@ def publish_status(result):
 
 def publish_winner(winner):
     template = ("Incredible!\n"
-        + "#{name} is the new #PokemonChampion!\n"
+        + "#{name} is the strongest #CyberPokemon!\n"
+        + "#Pokemons and humans have hope in the future again!\n"
         + "You're breathtaking!\n" 
-        + "#PokemonWarBot #Pokemon #WarBot")
+        + "#PokemonWarBot #WarBot #Cyberpunk")
     winner_post = template.format(name=winner['name'])
     print(winner_post)
